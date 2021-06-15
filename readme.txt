@@ -41,3 +41,11 @@ go to cdnjs.com && copy link font-awesome
 => Router
 in frontend
 { npm i react-router-dom react-router-bootstrap }
+__________________________________________________
+
+=> BackEnd
+{ npm init }
+&& -> Express
+{ npm i express }
+&&
+Terminal coomand -> { node backend/server }

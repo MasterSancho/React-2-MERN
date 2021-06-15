@@ -33,5 +33,11 @@ Bring Theme file from Bootswatch to src folder
 in terminal
 { cd frontend } -> { npm i react-bootstrap }
 
+
 => bring font-awesome ( Icons )
 go to cdnjs.com && copy link font-awesome
+
+
+=> Router
+in frontend
+{ npm i react-router-dom react-router-bootstrap }

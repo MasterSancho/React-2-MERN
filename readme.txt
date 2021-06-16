@@ -90,3 +90,12 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 => Mongoose -> { npm i mongoose }
 
 => Colors -> { npm i colors }
+----------------------------------------------------------------------
+
+=> Hash for passwords { npm i bcryptjs }
+
+
+=> import data to MongoDB { npm run data:import }
+* Import Data is replaces everything
+&&
+=> for destroy data from MongoDB { npm run data:destroy }

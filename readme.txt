@@ -85,3 +85,8 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 { mongodb+srv://brad1234:<password>@webroker.ebkim.mongodb.net/test }
 && chg name & password ->
 { mongodb+srv://brad1234:brad1234@webroker.ebkim.mongodb.net/proshop }
+--------------------------------------------------------------------
+
+=> Mongoose -> { npm i mongoose }
+
+=> Colors -> { npm i colors }

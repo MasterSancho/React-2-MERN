@@ -67,3 +67,21 @@ Terminal coomand -> { node backend/server }
  NODE_ENV = development
  PORT = 5000
 }
+_______________________________________________________________
+
+=> Mongo DB
+in mongodb.com create new Cluster ->
+Database Access { Add New Database User } ->
+-> Password Auth ( Name & Password )
+&&
+Network Access { Add Ip Address }
+&&
+go to Clusters -> click Collections -> & { Add My Own Data } ->
+-> DATABASE NAME { proshop } & COLLECTION NAME { products }
+&&
+go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
+-> { I have MongoDB Compass } -> copy string ->
+-> go to Compass past string ->
+{ mongodb+srv://brad1234:<password>@webroker.ebkim.mongodb.net/test }
+&& chg name & password ->
+{ mongodb+srv://brad1234:brad1234@webroker.ebkim.mongodb.net/proshop }

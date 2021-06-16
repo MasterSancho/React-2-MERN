@@ -49,3 +49,6 @@ __________________________________________________
 { npm i express }
 &&
 Terminal coomand -> { node backend/server }
+
+=> Axios
+{ npm i axios }

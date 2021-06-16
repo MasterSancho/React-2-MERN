@@ -50,5 +50,20 @@ __________________________________________________
 &&
 Terminal coomand -> { node backend/server }
 
+
 => Axios
 { npm i axios }
+
+
+=> { npm i -D nodemon concurrently }
+&& { npm run dev } -> running backend & frontend
+
+
+=> { npm i dotenv }
+
+
+=> create .env file ->
+{
+ NODE_ENV = development
+ PORT = 5000
+}

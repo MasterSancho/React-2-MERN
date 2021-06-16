@@ -102,3 +102,16 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 
 
 => Instead (try/catch on routes) -> { npm i express-async-handler }
+
+
+=> PostMan
+-> Create new collection
+-> Add new folder -> Add request
+{ GET /api/products } & { Get all products }
+write { http://localhost:5000/api/products }
+&&
+-> sittings -> Add Environment -> variable { URl }
+initial value { http://localhost:5000 }
+now link { {{URL}}/api/products }
+&&
+click Save to save request

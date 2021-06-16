@@ -99,3 +99,6 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 * Import Data is replaces everything
 &&
 => for destroy data from MongoDB { npm run data:destroy }
+
+
+=> Instead (try/catch on routes) -> { npm i express-async-handler }

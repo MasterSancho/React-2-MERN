@@ -128,7 +128,7 @@ in ( productRoutes ) file add {
  asyncHandler(async (req, res) => {
   const products = await Product.find({});
   res.status(401);
-  throw new Error('Not Authorized');
+  throw new Error('Not Authorized'); OR { throw new Error('Some error'); }
   res.json(products);
  })
 );

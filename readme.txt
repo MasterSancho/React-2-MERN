@@ -119,3 +119,17 @@ click Save to save request
 
 => Redux
 cd frontend { npm i redux react-redux redux-thunk redux-devtools-extension }
+
+
+=> Test for error
+in ( productRoutes ) file add {
+ router.get(
+ '/',
+ asyncHandler(async (req, res) => {
+  const products = await Product.find({});
+  res.status(401);
+  throw new Error('Not Authorized');
+  res.json(products);
+ })
+);
+}

@@ -102,7 +102,7 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 
 
 => Instead (try/catch on routes) -> { npm i express-async-handler }
-
+--------------------------------------------------------------
 
 => PostMan
 -> Create new collection
@@ -115,3 +115,7 @@ initial value { http://localhost:5000 }
 now link { {{URL}}/api/products }
 &&
 click Save to save request
+-----------------------------------------------------
+
+=> Redux
+cd frontend { npm i redux react-redux redux-thunk redux-devtools-extension }

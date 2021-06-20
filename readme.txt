@@ -133,3 +133,13 @@ in ( productRoutes ) file add {
  })
 );
 }
+-------------------------------------------------
+
+=> Users & Auth
+in PostMan create new folder ( Users & Auth ) ->
+Add request ( POST /api/users/login ) -> { {{URL}}/api/users/login } ->
+go to Body -> ( raw ) -> text to ( JSON ) ->
+{
+ "email": "test@example.com",
+ "password": 12345
+}

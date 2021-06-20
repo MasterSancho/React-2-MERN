@@ -143,3 +143,19 @@ go to Body -> ( raw ) -> text to ( JSON ) ->
  "email": "test@example.com",
  "password": 12345
 }
+------------------------------------------
+
+=> jwt.io
+{ npm i jsonwebtoken }
+
+=> in PostMan
+add new request { GET /api/users/profile }
+{ {{URL}}/api/users/profile }
+
+
+=> Take the token &&
+in ( profile ) go to Headers
+{
+ key: Authorization
+ value: Bearer TOKEN
+}

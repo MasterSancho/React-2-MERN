@@ -159,3 +159,9 @@ in ( profile ) go to Headers
  key: Authorization
  value: Bearer TOKEN
 }
+
+=> PostMan variable for TOKEN
+in Login Tab go to ( Tests ) ->
+{ pm.environment.set("TOKEN", pm.response.json().token) } ->
+in Profile Tab go to Authorization &&
+choose Bearer Token && {{TOKEN}}

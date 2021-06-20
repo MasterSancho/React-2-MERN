@@ -165,3 +165,15 @@ in Login Tab go to ( Tests ) ->
 { pm.environment.set("TOKEN", pm.response.json().token) } ->
 in Profile Tab go to Authorization &&
 choose Bearer Token && {{TOKEN}}
+
+
+=> Postman
+( new request ) -> { {{URL}}/api/users } ->
+
+In Users tab go to body click { raw } && { JSON } ->
+in Body
+{
+ "name": "Steve Smith",
+ "email": "steve@example.com",
+ "password": "123456"
+}

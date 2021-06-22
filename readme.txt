@@ -177,3 +177,11 @@ in Body
  "email": "steve@example.com",
  "password": "123456"
 }
+
+-----------------------------------------------
+
+=> Check with Postman User Profile Update ->
+new request { PUT /api/users/profile } ->
+{ {{URL}}/api/users/profile } ->
+Body -> raw -> JSON ->
+Authorization -> Bearer Token -> {{TOKEN}}

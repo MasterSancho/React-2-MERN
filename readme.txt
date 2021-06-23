@@ -185,3 +185,10 @@ new request { PUT /api/users/profile } ->
 { {{URL}}/api/users/profile } ->
 Body -> raw -> JSON ->
 Authorization -> Bearer Token -> {{TOKEN}}
+
+-----------------------------------------------
+
+=> PostMan
+create new folder ( Orders ) -> add new request { GET /api/orders/:id } ->
+{ {{URL}}/api/orders/60d20e9a5ecf4b4ac414919e } ->
+Authorization ( Bearer Token ) -> ( {{TOKEN}} )

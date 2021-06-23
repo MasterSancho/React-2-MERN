@@ -39,6 +39,7 @@ const OrderScreen = ({ match }) => {
   if (!order || order._id !== orderId) {
    dispatch(getOrderDetails(orderId));
   }
+  // eslint-disable-next-line
  }, [dispatch, orderId]);
 
  return loading ? (

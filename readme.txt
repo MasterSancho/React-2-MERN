@@ -192,3 +192,19 @@ Authorization -> Bearer Token -> {{TOKEN}}
 create new folder ( Orders ) -> add new request { GET /api/orders/:id } ->
 { {{URL}}/api/orders/60d20e9a5ecf4b4ac414919e } ->
 Authorization ( Bearer Token ) -> ( {{TOKEN}} )
+-------------------
+
+=> Go to developer.paypal.com ->
+SANDBOX -> Accounts ->
+back to My Apps -> proshop -> copy ( Client ID ) ->
+In ( .env ) ->
+{
+ PAYPAL_CLIENT_ID = AUi-PuS1zvig-J6O4xI3n-2_cwmTq0TXY_WlgRL_rzRsTVmFDRqUTgWAHvoWeRE4Gwe4bR5Q3FzpBx-n
+ } ->
+ paypal sdk script ->
+ {
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+ }
+
+=> react-paypal-button-v2
+{ cd frontend } -> { npm i react-paypal-button-v2 }

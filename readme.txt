@@ -243,3 +243,8 @@ Body -> { raw } & { JSON } ->
     "name": "Alex Maltsev"
  }
 }
+-------------------------------------------------
+
+=> PostMan Delete Product ->
+( DELETE /api/products/:id ) && ( Delete product. Admin only ) ->
+Authorization -> ( Bearer Token )

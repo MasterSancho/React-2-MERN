@@ -248,3 +248,26 @@ Body -> { raw } & { JSON } ->
 => PostMan Delete Product ->
 ( DELETE /api/products/:id ) && ( Delete product. Admin only ) ->
 Authorization -> ( Bearer Token )
+----------------------------------------
+
+=> PostMan Add new Product ->
+( POST /api/products ) -> ( Add new sample product ) ->
+Authorization -> ( Bearer Token )
+-------------------------------------------
+
+=> Update a Product ->
+( PUT /api/products/:id ) -> ( Update a product ) ->
+Authorization -> ( Bearer Token ) ->
+Body -> { raw } & { JSON } ->
+{
+   {
+    "name": "Test Product",
+    "description": "Test description",
+    "price": 100,
+    "category": "Galaxy",
+    "image": "/images/sample.jpg",
+    "brand": "Solar System",
+    "countInStock": 5
+ }
+
+}

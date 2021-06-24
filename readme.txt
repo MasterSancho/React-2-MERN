@@ -225,3 +225,15 @@ Authorization -> ( Bearer Token )
 ( DELETE /api/users/:id ) -> ( Delete a user. Admin only ) ->
 ( {{URL}}/api/users/60cf3d22f762be3cac4193dd ) ->
 Authorization -> ( Bearer Token )
+-------------------------------------------------------------
+
+=> PostMan Get User by Admin ->
+( GET /api/users/:id ) -> ( Get user by ID. Admin only ) ->
+( {{URL}}/api/users/60d45939a5303e46d49edc3a ) ->
+Authorization -> ( Bearer Token )
+-------------------------------------------------------------
+
+=> PostMan Update User by Admin ->
+( PUT /api/users/:id ) -> ( Update a user by ID. Admin only ) ->
+( {{URL}}/api/users/60d45939a5303e46d49edc3a ) ->
+Authorization -> ( Bearer Token )

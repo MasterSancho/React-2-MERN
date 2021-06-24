@@ -214,3 +214,8 @@ In ( .env ) ->
 add new request on ( Orders ) folder -> { GET /api/orders/myorders } ->
 { {{URL}}/api/orders/myorders } ->
 Authorization -> ( Bearer Token )
+---------------------------------------------------------------
+
+=> PostMan -> ( GET /api/users ) -> ( Get all users. Admin only ) ->
+{ {{URL}}/api/users } ->
+Authorization -> ( Bearer Token )

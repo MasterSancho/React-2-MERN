@@ -219,3 +219,9 @@ Authorization -> ( Bearer Token )
 => PostMan -> ( GET /api/users ) -> ( Get all users. Admin only ) ->
 { {{URL}}/api/users } ->
 Authorization -> ( Bearer Token )
+----------------------------------------------------------------
+
+=> PostMan Delete User ->
+( DELETE /api/users/:id ) -> ( Delete a user. Admin only ) ->
+( {{URL}}/api/users/60cf3d22f762be3cac4193dd ) ->
+Authorization -> ( Bearer Token )

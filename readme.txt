@@ -208,3 +208,9 @@ In ( .env ) ->
 
 => react-paypal-button-v2
 { cd frontend } -> { npm i react-paypal-button-v2 }
+--------------------------------------------------------------
+
+=> PostMan ->
+add new request on ( Orders ) folder -> { GET /api/orders/myorders } ->
+{ {{URL}}/api/orders/myorders } ->
+Authorization -> ( Bearer Token )

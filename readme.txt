@@ -236,4 +236,10 @@ Authorization -> ( Bearer Token )
 => PostMan Update User by Admin ->
 ( PUT /api/users/:id ) -> ( Update a user by ID. Admin only ) ->
 ( {{URL}}/api/users/60d45939a5303e46d49edc3a ) ->
-Authorization -> ( Bearer Token )
+Authorization -> ( Bearer Token ) ->
+Body -> { raw } & { JSON } ->
+{
+ {
+    "name": "Alex Maltsev"
+ }
+}

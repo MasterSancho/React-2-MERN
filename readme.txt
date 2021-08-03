@@ -93,13 +93,13 @@ go to Clusters -> click Connect -> { Connect using MongoDB Compass } ->
 ----------------------------------------------------------------------
 
 => Hash for passwords { npm i bcryptjs }
-
+-----------------------------------------------------------
 
 => import data to MongoDB { npm run data:import }
 * Import Data is replaces everything
 &&
 => for destroy data from MongoDB { npm run data:destroy }
-
+---------------------------------------------------------
 
 => Instead (try/catch on routes) -> { npm i express-async-handler }
 --------------------------------------------------------------
@@ -119,7 +119,7 @@ click Save to save request
 
 => Redux
 cd frontend { npm i redux react-redux redux-thunk redux-devtools-extension }
-
+------------------------------------------------------
 
 => Test for error
 in ( productRoutes ) file add {
